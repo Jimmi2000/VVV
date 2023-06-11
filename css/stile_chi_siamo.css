@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.content {
+    margin:20px;
+    background-color: rgba(247, 242, 242, 0.48);
+    border-style: outset;
+    text-align: center;
+    line-height: 220%;
+}
+
+.content h1 {
+    font-family:  "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content ul {
+    font-family:  "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content li {
+    font-family:  "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14;
+    font-weight: 500;
+}

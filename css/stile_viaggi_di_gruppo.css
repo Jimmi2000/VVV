@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+h1 {
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 42px;
+}
+h3 {
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ul {
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+} 
+
+.viaggi_di_gruppo_title_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background-image: url("../images/foto/group.jpg");
+    background-color: #ABCDEF;
+    background-repeat: no-repeat;
+    background-position: 50% 37%;
+    background-size: cover;
+}
+
+.viaggi_di_gruppo_title_box .viaggi_di_gruppo_title_text  {
+    font-size: 10vw;
+    color: white;
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    text-transform: uppercase;
+    opacity: 75%;
+    
+}
+
+ /* stile polaroid */
+
+  .polaroid {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 5px 16px -1px #000000;
+  }
+  
+  .polaroid .polaroid-image {
+    width: 100%;
+  }
+  
+  .polaroid .polaroid-text {
+    font-family: "Caveat", cursive ;
+    text-align: center;
+  }
+
+  .sezione_proposta {
+    padding: 20px;
+}
+
+.servizi {
+    margin-top: 40px;
+    font-family:  "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    color: #08457E;
+}
+
+.infotrip {
+    padding-top: 40px;
+}
+.sezione_proposta_testo {
+    background-color: rgba(247, 242, 242, 0.48);
+    line-height: 220%;
+    text-align: center;
+    overflow-y: auto;
+    margin: 20px;
+    border-style: outset;
+}
+
+.sezione_proposta_testo {
+    text-align: center;
+    overflow-y: auto;
+}
+  
+  @media (max-width: 767px) {
+   
+    .polaroid-text {
+      font-size: 12vw;
+    }
+
+  .sezione_proposta_testo {
+    margin: 0px;
+}
+
+}
+
+h1 {
+    font-size: 32px;
+}
+  
+  @media (min-width: 768px) {
+    
+    .polaroid-text {
+      font-size: 3vw;
+    }
+
+    .sezione_proposta {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+ 
+}
+  
+
+
+

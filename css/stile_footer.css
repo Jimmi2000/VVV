@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.info_footer h2{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.info_footer a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #778899;
+    display: inline-block;
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 12px;
+    width: 100%;
+}
+
+.logofooter_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logofooter {
+    height: 148px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.info_footer {
+    color: white;
+    text-align: center;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.info_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.QuickLinks {
+text-align: center;
+line-height: 218%;
+}
+
+.QuickLinks a{
+    color: white;
+    text-decoration: none;
+}
+
+.QuickLinks a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.active_footer {
+    text-decoration: underline !important;
+    font-weight: bolder;
+}
+

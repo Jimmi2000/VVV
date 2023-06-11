@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.home_title_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+}
+
+.home_title_box .home_title_text  {
+  font-size: 10vw;
+  color: black;
+  font-family: "Caveat", coursive;
+  opacity: 68%;
+}
+
+.polaroid-box{
+  padding: 20px;
+}
+.polaroid {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 16px -1px #000000;
+}
+
+.polaroid-image {
+  width: 100%;
+}
+
+.polaroid-text {
+  font-family: "Caveat", cursive ;
+  text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+  .polaroid-text {
+    font-size: 8vw;
+  }
+
+  .home_title_box {
+    height: 240px;
+  }
+
+  .home_title_box .home_title_text  {
+    font-size: 14vw;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  
+  .polaroid-text {
+    font-size: 3vw;
+  }
+
+ .polaroid-image {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+
+  .polaroid-text {
+    opacity: 0;
+  }
+
+  .polaroid:hover .polaroid-image {
+    filter: grayscale(0%);
+    transition-duration:2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .polaroid:hover .polaroid-text {
+      opacity: 1;
+      transition-duration:2s;
+      transition-timing-function: ease-in-out;
+  } 
+
+
+}
+
+
+
+
+
+
+
+
+

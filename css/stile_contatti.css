@@ -1,0 +1,66 @@
+
+.details a {
+    text-decoration: none;
+    color: #08457E;
+}
+
+.details a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.details li { 
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    color: #08457E;
+    font-weight: 500;
+}
+
+.details h2 { 
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    color: #08457E;
+    font-weight: 500;
+}
+
+.details ul { 
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    color: #08457E;
+    font-weight: 600;
+}
+
+.details h1 { 
+    font-family: "Open Sans","Old Sans Black", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    color: #08457E;
+    font-weight: 600;
+}
+
+
+.details  {
+   margin-top: 40px ;
+   padding: 20px;
+   text-align: center;
+}
+
+.mappa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-pieni {
+    margin-top: 60px;
+}
+
+
+.social-logo {
+   display: flex !important;
+   flex-direction: row;
+   justify-content: center;
+}
+
+@media (max-width: 767px) {
+    iframe { width: 80%;}
+}
